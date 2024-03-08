@@ -19,8 +19,8 @@ Meu devlinks feito com base no curso Discover da rocketseat.<br/>
 <br>
 
 <p>
-  <img alt="DevLinks darkmode" src=".github/darkmode.png" width="50%">
-<img align="right" alt="DevLinks lightmode" src=".github/lightmode.png" width="50%">
+  <img align="center" alt="DevLinks darkmode" src=".github/devlinks.png" width="100%">
+</p>
 
 ## 🚀 Tecnologias
 
