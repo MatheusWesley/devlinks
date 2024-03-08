@@ -74,12 +74,16 @@ body * {
   left: 0;
   z-index: 1;
   transform: translateY(-50%);
+  animation: onDark 0.2s;
 }
 
 .light #switch button {
-  left: initial;
-  right: 0;
+  animation: onLight 0.4s forwards;
   background-image: var(--switch-bg-url);
+}
+
+#switch button:hover {
+  outline: 4px solid var(--highlight-color);
 }
 
 #switch span {
@@ -171,5 +175,24 @@ footer a:hover {
 
   .light {
     --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+}
+
+/* Criando animações com o @keyframes */
+@keyframes onLight {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes onDark {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
   }
 }
