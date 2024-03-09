@@ -9,12 +9,11 @@
   "editor.minimap.enabled": false,
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
-  "files.autoSave": "afterDelay",
+  // "files.autoSave": "afterDelay",
   // explorer
   "explorer.compactFolders": false,
   // workbench
   "workbench.editor.enablePreview": false,
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Omni",
   // prettier
   "editor.defaultFormatter": "esbenp.prettier-vscode",

@@ -122,6 +122,12 @@ ul li a {
   font-weight: 500;
 
   transition: background 0.4s;
+
+  gap: 6px;
+}
+
+ul li a .youtube {
+  color: #ff4b4b;
 }
 
 ul li a:hover {
